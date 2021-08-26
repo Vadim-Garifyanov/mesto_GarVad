@@ -1,0 +1,8 @@
+.cards__element-bottom {
+  background-color: white;
+  display: flex;
+  padding: 25px 15px 31px 21px;
+  border-radius: 0 0 10px 10px;
+  justify-content: space-between;
+  max-height: 23px;
+}

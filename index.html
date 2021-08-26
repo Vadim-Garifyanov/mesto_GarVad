@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <header class="header">
+      <img src="./images/Vector_MestoRus.svg" alt="Mesto Russia" class="header__logo">
+    </header>
+
+    <div class="profile">
+      <img src="./images/Kusto.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
+      <div class="profile__info">
+        <h1 class="profile__info-name">Жак-Ив Кусто<button class="profile__edit"></button></h1>
+        <p class="profile__info-job">Исследователь океана</p>
+      </div>
+      <button class="profile__add"></button>
+    </div>
+
+    <div class="cards">
+      <div class="cards__element">
+        <img src="./images/jeep.jpg" alt="Jeep" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">Jeep</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+      <div class="cards__element">
+        <img src="./images/mustang.jpg" alt="Ford Mustang" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">Ford Mustang</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+      <div class="cards__element">
+        <img src="./images/bmw.jpg" alt="BMW" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">BMW</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+      <div class="cards__element">
+        <img src="./images/audi.jpg" alt="Audi" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">Audi</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+      <div class="cards__element">
+        <img src="./images/mers.jpg" alt="Mercedes" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">Mercedes</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+      <div class="cards__element">
+        <img src="./images/rover.jpg" alt="Range Rover" class="cards__picture">
+        <div class="cards__element-bottom">
+          <h2 class="cards__text">Range Rover</h2>
+          <button class="cards__like"></button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    </footer>
+
+    <form class="popup">
+      <div class="popup__container">
+        <div class="popup__form">
+          <button class="popup__close" type="button"></button>
+          <h2 class="popup__form-name">Редактировать профиль</h2>
+          <input type="text" class="popup__input-name">
+          <input type="text" class="popup__input-job">
+          <button class="popup__save" type="submit">Сохранить</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
