@@ -10,8 +10,9 @@
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: 22px;
-  border: 1px solid white;
+  border: 2px solid white;
   background-position: center;
+  border-radius: 2px;
 }
 
 .profile__add:hover {
