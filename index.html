@@ -78,15 +78,15 @@
     </footer>
 
     <div class="popup">
-      <form name="container" class="popup__container">
+      <div name="container" class="popup__container">
         <button class="popup__close" type="button"></button>
         <h2 class="popup__form-name">Редактировать профиль</h2>
-        <div class="popup__inputs">
-          <input type="text" class="popup__input" name="name_edit">
-          <input type="text" class="popup__input" name="job_edit">
-        </div>
-        <button class="popup__save" type="submit">Сохранить</button>
-      </form>
+        <form class="popup__content">
+          <input type="text" class="popup__input" name="name-edit">
+          <input type="text" class="popup__input" name="job-edit">
+          <button class="popup__save" type="submit">Сохранить</button>
+        </form>
+      </div>
     </div>
 
   </div>
